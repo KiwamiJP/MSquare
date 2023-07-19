@@ -38,7 +38,7 @@
     width: 80%;
 }
 .logoleft{
-    width:30%;
+    width:20%;
 }
 .right{
     display: flex;
@@ -87,6 +87,13 @@ button{
     .mobileMenuContainer{
         display: block;
     }
+    .header{
+        margin-bottom: 10px;
+        
+    }
+    .inner h1{
+        font-size: 1.75rem!important;
+    }
     .menucontainer{
         display: none;
     }
@@ -94,20 +101,28 @@ button{
         width: 100%;
     }
     .inner{
-        width: 64%;
+        width: 90%;
         margin: 0 auto;
 
     }
     .right{
-        width: 80%;
+        width: 100%;
         overflow: hidden;
-        text-align:center;
     }
     .logoleft{
+        width:30%;
         margin-bottom: 30px;
     }
     .logoright{
         width: 100%;
-       margin: 0 -50%;
     }
+    .menu-left-container{
+        width: 50px;
+        overflow: hidden;
+        height: 40px;
+    }
+    
+}
+.menu-left-container{
+    cursor:pointer;
 }
