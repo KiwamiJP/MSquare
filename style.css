@@ -1,12 +1,23 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
 .mother{
    max-width: 1024px;
    margin:0 auto;
+   height: 1000px;
 }
 .header{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0px;
+    padding: 20px;
+    align-items: center;
+    background-color: #fafafa;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top:0;
+    opacity: 0.9;
 }
 .menuitem{
     margin-left:20px;
@@ -20,10 +31,11 @@
     margin-bottom: 10px;
 }
 .footer{
+    width: 100%;
     font-size: 30px;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
-    margin:30px;
+ background-color: #f6f6f6;
 }
 .logo{
     width: 50%;
@@ -51,7 +63,7 @@
     margin-bottom: 15px;
 }
 .username{
-    background-color: lightgray;
+    background-color:#F6F6F6;
     width: 200px;
     height: 35px;
     padding-left: 15px;
@@ -125,4 +137,9 @@ button{
 }
 .menu-left-container{
     cursor:pointer;
+}
+@media(max-width:375){
+    .inner{
+        width: 95%;
+    }
 }
